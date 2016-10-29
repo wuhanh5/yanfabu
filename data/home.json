@@ -1,0 +1,141 @@
+﻿{
+	"data": {
+		"timestamp": 1477666859,
+		"versionInfo": {
+			"latestVersion": "2.4.0"
+		},
+		"homePageInfo": {
+			"bottomPic": "http://201073.image.myqcloud.com/201073/0/0db3f5f1-147b-42ef-8495-822ac30cf414/original",
+			"recommendCity": [{
+				"cityCode": "shanghai_city",
+				"cityNameCh": "上海",
+				"cityNameEn": "Shanghai",
+				"id": 73,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/b7cf28d4-fa79-4151-be89-1ffc06844dcd/original"
+			}, {
+				"cityCode": "beijing_city",
+				"cityNameCh": "北京",
+				"cityNameEn": "Beijing",
+				"id": 1,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/4f3ada2a-c16f-401a-82cb-a0e73312e704/original"
+			}, {
+				"cityCode": "hangzhou",
+				"cityNameCh": "杭州",
+				"cityNameEn": "Hangzhou",
+				"id": 87,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/d6e7525c-f540-4dd5-ae8f-66c9dfc45727/original"
+			}, {
+				"cityCode": "suzhou_jiangsu",
+				"cityNameCh": "苏州",
+				"cityNameEn": "Suzhou",
+				"id": 78,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/9fa8212d-2e20-4f92-a9bb-e1aea86b9867/original"
+			}, {
+				"cityCode": "guangzhou",
+				"cityNameCh": "广州",
+				"cityNameEn": "Guangzhou",
+				"id": 197,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/5359d230-40af-4995-8e35-45d016700608/original"
+			}, {
+				"cityCode": "shenzhen",
+				"cityNameCh": "深圳",
+				"cityNameEn": "Shenzhen",
+				"id": 199,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/8828751c-ac14-46b4-adb8-b25dd1ae788d/original"
+			}, {
+				"cityCode": "chengdu",
+				"cityNameCh": "成都",
+				"cityNameEn": "Chengdu",
+				"id": 235,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/8e8dc75c-a6dd-430e-8680-90c512d882b4/original"
+			}, {
+				"cityCode": "chongqing_city",
+				"cityNameCh": "重庆",
+				"cityNameEn": "Chongqing",
+				"id": 234,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/6da8d453-5d5d-48ff-a613-f080d3f0e625/original"
+			}, {
+				"cityCode": "nanjing",
+				"cityNameCh": "南京",
+				"cityNameEn": "Nanjing",
+				"id": 74,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/e454bbb7-4722-40f9-8871-b605b3a119ad/original"
+			}, {
+				"cityCode": "wuhan",
+				"cityNameCh": "武汉",
+				"cityNameEn": "Wuhan",
+				"id": 169,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/1eadc240-ce29-471a-8552-1da2324d2acb/original"
+			}, {
+				"cityCode": "xiamen",
+				"cityNameCh": "厦门",
+				"cityNameEn": "Xiamen",
+				"id": 116,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/85d372f9-4183-4796-a196-8df00b0b0ae1/original"
+			}, {
+				"cityCode": "dali",
+				"cityNameCh": "大理",
+				"cityNameEn": "Dali",
+				"id": 277,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/26ebdf51-29c9-43ea-b5b7-b58905991bec/original"
+			}, {
+				"cityCode": "dalian",
+				"cityNameCh": "大连",
+				"cityNameEn": "Dalian",
+				"id": 38,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/e6ba8af6-e2b9-430e-9631-c74916456851/original"
+			}, {
+				"cityCode": "qingdao",
+				"cityNameCh": "青岛",
+				"cityNameEn": "Qingdao",
+				"id": 136,
+				"mainPic": "http://201073.image.myqcloud.com/201073/0/4d869b96-d7bc-4f1d-89d3-3c29bce022fd/original"
+			}],
+			"timestamp": 0,
+			"topBanner": [{
+				"advPic": "http://201073.image.myqcloud.com/201073/0/11e31ed9-0aeb-4da5-a7c3-7c77539bb341/original",
+				"advTitle": "汪星人与民宿",
+				"advUrl": "http://www.shafalvxing.com/h5/activity_music.html?advId=38&from=app",
+				"code": "INDEX_BANNER",
+				"name": "首页banner",
+				"shareInfo": {
+					"couponNum": 0,
+					"shareDesc": "在沙发旅行App, 入住汪民宿，享受汪星人作伴",
+					"sharePic": "http://201073.image.myqcloud.com/201073/0/d565c78f-39f5-4166-9738-0f47410542ab/original?srotate=1",
+					"shareTitle": "汪星人与民宿",
+					"shareUrl": "http://www.shafalvxing.com/h5/activity_music.html?advId=38&from=b"
+				}
+			}, {
+				"advPic": "http://201073.image.myqcloud.com/201073/0/6d346c7d-6888-4ee6-b78d-2e159b3ec458/original",
+				"advTitle": "猫与民宿｜喵～",
+				"advUrl": "http://www.shafalvxing.com/h5/activity_music.html?advId=37&from=app",
+				"code": "INDEX_BANNER",
+				"name": "首页banner",
+				"shareInfo": {
+					"couponNum": 0,
+					"shareDesc": "在沙发旅行App, 入住喵民宿，向喵主子跪安吧",
+					"sharePic": "http://201073.image.myqcloud.com/201073/0/d565c78f-39f5-4166-9738-0f47410542ab/original?srotate=1",
+					"shareTitle": "一猫一民宿",
+					"shareUrl": "http://www.shafalvxing.com/h5/activity_music.html?advId=37&from=b"
+				}
+			}, {
+				"advPic": "http://201073.image.myqcloud.com/201073/0/8abe6c9e-22c0-48a0-9759-51156d49c40d/original",
+				"advTitle": "注册即送200",
+				"advUrl": "http://www.shafalvxing.com/h5/regist99_regist.html",
+				"code": "INDEX_BANNER",
+				"name": "首页banner",
+				"shareInfo": {
+					"couponNum": 0,
+					"shareDesc": "更好玩的住宿方式，更高的性价比，快来沙发旅行App领取更多好礼！",
+					"sharePic": "http://www.shafalvxing.com/images/share_regist.png",
+					"shareTitle": "沙发旅行：注册即送200，你旅行我买单！",
+					"shareUrl": "http://www.shafalvxing.com/h5/regist99_download.html"
+				}
+			}]
+		}
+	},
+	"rtnStatus": {
+		"code": "200",
+		"message": "sueecss"
+	}
+}

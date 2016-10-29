@@ -1,0 +1,22 @@
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<div class="swiper-container" ng-controller="homeCtrl">
+    <div class="swiper-wrapper">
+        <a ng-repeat="x in arr" class="swiper-slide"><img ng-src={{x.advPic}}></a>
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+<div class="home-main">
+	<!--<a href="find/subfind.html">
+		<img src="img/home/home1.png"/>
+		<span>
+			<p>上海</p>
+			<p>Shanghai</p>
+		</span>
+	</a>-->
+</div>
+<a  class="home-bottom search-city">
+	<img src="img/bottom.png"/>
+	<span >
+		点击查看更多城市
+	</span>
+</a>

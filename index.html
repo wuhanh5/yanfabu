@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" ng-app="routerApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>soft</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <script src="framework/jquery-1.9.1.js"></script>
+    <script src="framework/angular-1.3.0.14/angular.js"></script>
+    <script src="framework/angular-css.min.js"></script>
+    <script src="framework/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+    <script src="app.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/services.js"></script>
+</head>
+
+<body ng-app="routerApp">
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    
+    <ul class="footer-nav" ng-controller='colorCtrl'>
+        <li><a class="home" ng-class='{active:isActive}'  ui-sref="home"><span class="index-nav-span1"></span><p>首页</p></a></li>
+        <li><a class="find" ng-click="clickStatus(isActive)"  ui-sref="find"><span  class="index-nav-span2"></span><p>发现</p></a></li>
+        <li><a class="search" ng-click="clickStatus(isActive)"  ui-sref="search"><span  class="index-nav-span3"></span><p>搜索</p></a></li>
+        <li><a class="order" ng-click="clickStatus(isActive)"  ui-sref="order"><span  class="index-nav-span4"></span><p>订单</p></a></li>
+        <li><a class="mine" ng-click="clickStatus(isActive)"  ui-sref="mine"><span  class="index-nav-span5"></span><p>我的</p></a></li>
+    </ul>
+</body>
+<script type="text/javascript">
+	//设置rem单位,实现不同屏幕自适应
+document.documentElement.style.fontSize = innerWidth/16 + 'px';
+window.addEventListener('resize',function(){
+	document.documentElement.style.fontSize = innerWidth/16 + 'px';
+});
+</script>
+</html>

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  	font-size: 12px;
+  	font-family: microsoft yahei,微软雅黑;
+  	margin: 0 auto;	
+  	color: #666;
+}
+ul,ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+	color: #666;
+}
+img,button {
+  border: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
