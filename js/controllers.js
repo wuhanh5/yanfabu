@@ -1,3 +1,4 @@
+
 routerApp.controller('colorCtrl',function($scope){
 	$scope.isActive = true;
 	$scope.clickStatus = function (isActive) {
@@ -35,6 +36,24 @@ routerApp.controller('homeMainCtrl',['$scope','homeService','$state',function($s
 	}
 }])
 
+
+routerApp.controller('hotCityCtrl',['$scope','moreCityService','$state',function($scope,moreCityService){
+	moreCityService.get().success(function(res){
+		$scope.hotCitys =res.data.hotCity;
+	})
+	
+}])
+routerApp.controller('moreCtrl',function($scope){
+	$scope.goBack = function(){
+		window.history.back();
+	}
+})
+routerApp.controller('cityListCtrl',['$scope','moreCityService','$state',function($scope,moreCityService){
+	moreCityService.get().success(function(res){
+		$scope.cityLists =res.data.searchCity;
+	})
+	
+}])
 routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityService) {
    $scope.cityId = $stateParams.cityId;
     var producerId = $stateParams.cityId;
@@ -49,6 +68,10 @@ routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityServi
 		 2:"女"
 		}
 
+	$scope.goBack = function(){
+		window.history.back();
+	}
 });
+
 
 

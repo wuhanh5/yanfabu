@@ -1,0 +1,16 @@
+.search-page{padding: 2.133333rem 0.853333rem 0;}
+.search-logo{}
+.search-logo img{width: 2.56rem;height: 2.56rem;display: block;margin: 0 auto;}
+.search-desc{height: 2.133333rem;text-align: center;font: 0.512rem/2.133333rem '微软雅黑';margin-bottom: 1.28rem;}
+.search-city,.search-liveTime{height: 2.133333rem;border-bottom: 1px solid #f1f1f1;font: 0.512rem/2.133333rem '微软雅黑';}
+.search-city .icon-theme,.search-liveTime .icon-theme{width: 1.621333rem;height: 1.664rem;display: inline-block;
+			margin: 0 0.256rem;vertical-align: top;background: url(../img/sprite1.png) no-repeat -3px -6px; tansform:scale(0.8);-webkit-transform:scale(0.8);}
+.search-city input, .search-liveTime input {border: none;outline: none;}	
+.search-liveTime .icon-theme{background-position: -58px -4px;}		
+.arrow{background: url(../img/icon_right.png) no-repeat;display: inline-block;width: 30px;height: 30px;float: right;background-size: 40%;margin-top: 10px;}
+.search-model {padding: 0.426667rem 20% 0;font-size: 0.512rem; line-height: 3.84rem;text-align: center;}
+.search-serBtn input[type='button'] {background: transparent;width: 100%;height: 40px;text-align: center;
+    color: #58BDC0; border: 1px solid #58bdc0;border-radius: 4px;outline: none;}
+ #error-info {display: none;background: #3d3d3d; color: #fff;width: 100px;line-height: 24px;
+    padding: 4px;margin: 30px auto;text-align: center;box-shadow: 2px 2px 2px #666;}
+    

@@ -1,0 +1,17 @@
+<!--查找城市模块-->
+	<div id="search-city-model" ng-controller='moreCtrl'>
+		<p class="search-bar"><input type="text" value="" placeholder="搜索城市" /><span class="btn-close" ng-click='goBack()'>取消</span></p>
+		<h4>热门城市</h4>
+		<dl class="search-info-province" ng-controller='hotCityCtrl'>
+			<dd ng-repeat='hotcity in hotCitys' ui-sref="city({cityId: hotcity.id})">{{hotcity.cityNameCh}}</dd>
+		</dl>
+		<ul class="search-info-province-details" ng-controller='cityListCtrl'>
+			<li ng-repeat='citylist in cityLists'>
+				<dl>
+					<dt>{{citylist.word}}</dt>
+					<dd ng-repeat='x in citylist.city track by $index' ui-sref="city({cityId:x.id})">{{x.cityNameCh}}</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+	

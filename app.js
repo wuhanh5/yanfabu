@@ -36,6 +36,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         	css:'css/cityinfo.css'
         })
         
+        .state('moreCity',{
+        	url:'/moreCity',
+        	templateUrl:'html/moreCity.html',
+        	css:'css/moreCity.css'
+        })
+        
        .state('find', {
             url: '/find',
             templateUrl: 'html/find.html',
@@ -53,7 +59,8 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         })
        .state('mine', {
             url: '/mine',
-            templateUrl: 'html/mine.html'
+            templateUrl: 'html/mine.html',
+            css:'css/mine.css'
             
         })
         

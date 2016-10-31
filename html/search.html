@@ -1,1 +1,24 @@
-<h3>我是eearch</h3>
+<div class="search-page">
+	<div class="search-logo"><img src="img/search-logo.png" alt="" /></div>
+	<p class="search-desc">沙发旅行</p>
+	<!--城市、入住时间选择-->
+	<div class="search-city">
+		<i class="icon-theme"></i>
+		<input name="inp-city" id="inp-city" type="text" value="" placeholder="选择城市" readonly="true"/>
+		
+		<i class="arrow"></i>
+	</div>
+	<div class="search-liveTime">
+		<i class="icon-theme"></i>
+		<input name="inp-time" id="inp-time" type="text" value="" placeholder="入住-离开时间"  readonly="true" />
+		<i class="arrow"></i>
+	</div>
+	<div class="search-model">
+		<span class="active" id="list-model">列表模式</span>
+		<a href="my/my_fangyuan_map.html" id="map-model">地图模式</a></div>
+	<!--搜索按钮-->
+	<div class="search-serBtn">
+		<input type="button"  value="搜索" />
+		<p id="error-info"></p>
+	</div>
+</div>

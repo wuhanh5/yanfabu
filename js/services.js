@@ -11,3 +11,9 @@ routerApp.service('cityService',['$http','$stateParams',function($http,$statePar
 	}
 	
 }]);
+
+routerApp.service('moreCityService',['$http',function($http){
+	this.get = function(){
+		return $http.get('data/citylist.json');
+	}
+}]);

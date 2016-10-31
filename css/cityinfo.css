@@ -1,6 +1,12 @@
 body{
 	padding: 2.218667rem 0 2.14rem 0;
 }
+.citys{
+	position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
 .city-header{
 	height: 2.218667rem;
 	width: 100%;
@@ -65,8 +71,12 @@ body{
 
 
 .trip-list li{
+	background: #fff;
 	text-align: center;
 	margin-bottom: 10px;
+}
+.trip-list li:last-child{
+	margin: 0;
 }
 .trip-list li>a{
 	display: block;
