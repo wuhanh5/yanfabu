@@ -7,7 +7,7 @@ routerApp.controller('colorCtrl',function($scope){
 
 routerApp.controller('bannerCtrl',['$scope','homeService','$timeout',function($scope,homeService,$timeout){
 	homeService.get().success(function(res){
-		console.log(res.data);
+//		console.log(res.data);
 		$scope.arr =res.data.homePageInfo.topBanner;
 	})
 	$timeout(function(){
@@ -24,9 +24,31 @@ routerApp.controller('bannerCtrl',['$scope','homeService','$timeout',function($s
 	
 }]);
 
-routerApp.controller('homeMainCtrl',['$scope','homeService',function($scope,homeService){
+routerApp.controller('homeMainCtrl',['$scope','homeService','$state',function($scope,homeService,$state){
 	homeService.get().success(function(res){
 		$scope.citys =res.data.homePageInfo.recommendCity;
 	})
+	
+	$scope.toCity = function(cityId){
+		console.log(cityId);
+		$state.go('city',{cityId:cityId});
+	}
 }])
+
+routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityService) {
+   $scope.cityId = $stateParams.cityId;
+    var producerId = $stateParams.cityId;
+    console.log(producerId);
+    
+    cityService.get().success(function(res){
+    	$scope.cityInfos = res.data.result;
+    })
+    
+    $scope.sexObj= {
+		 1:"男",
+		 2:"女"
+		}
+
+});
+
 

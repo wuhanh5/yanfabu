@@ -3,7 +3,7 @@
 .footer-nav li a{display: block;}
 .footer-nav a:hover,.footer-nav a:active,.footer-nav a:focus {color: #58bdc0;}
 .footer-nav .search{position: relative;top: -0.64rem;}
-.footer-nav span{display: block;height: 1.066667rem;width: 1.066667rem;margin: 0 auto 2px;background: url('../img/sprite.png');background-size: 208px 250px;}
+.footer-nav span{display: block;height: 1.14rem;width: 1.14rem;margin: 0 auto 2px;background: url('../img/sprite.png');background-size: 206px 250px;}
 .footer-nav .index-nav-span1{background-position: -3px -30px;}
 .footer-nav .active .index-nav-span1{background-position:-3px 0px ;}
 .footer-nav .active p{color: #58bdc0;}
@@ -11,16 +11,16 @@
 .home:hover .index-nav-span1,
 .home:active .index-nav-span1{background-position:-3px 0px ;}
 
-.footer-nav .index-nav-span2{background-position:-36px -31px ;}
+.footer-nav .index-nav-span2{background-position:-35px -31px ;}
 .find:visited .index-nav-span2,
 .find:hover .index-nav-span2,
 .find:active .index-nav-span2{
-	background-position:-36px -1px ;
+	background-position:-35px -1px ;
 }
 .footer-nav .index-nav-span3{
-	width:40px;
+	width:42px;
 	height: 40px;
-	background-position:-135px -6px;
+	background-position:-134px -6px;
 }
 .footer-nav .index-nav-span4{background-position:-66px -32px;}
 .order:visited .index-nav-span4,

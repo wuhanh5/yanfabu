@@ -1,0 +1,41 @@
+<div ng-controller="cityCtrl">
+	<div class="city-header">
+		<div class="city-title">武汉</div>
+		<div class="find-icon-l find-icon"><a ng-click="goBack()"><img src="img/topbar_back.png" alt=""></a></div>
+		<div class="find-icon-r find-icon"><a href="#"><img src="img/icon_to_map.png" alt=""></a></div>
+	</div>
+	<ul class="find-date">
+		<li><p>入住</p><a>选择入住时间</a></li>
+		<li><p>离开</p><a>选择离开时间</a></li>
+	</ul>
+
+	<div class="find-check">
+		<p>筛选</p>
+	</div>
+		
+	<ul class="trip-list">
+		<li ng-repeat='cityInfo in cityInfos'>
+			<a>
+				<div class="list-img">
+					<img class="load-img" ng-src={{cityInfo.mainPIc}}>
+					<img class="load-img ownimg" ng-src={{cityInfo.ownerPic}} />
+				</div>
+				<p>{{cityInfo.ownerName}}</p>
+				<p class="own-info">{{cityInfo.age}}岁 · {{sexObj[cityInfo.sex]}} | <img class="icon-right" src="img/icon_user_auth_blue.png"/>&nbsp;<img src="img/icon_reply_flag.png"/>{{cityInfo.replyRate}}%</p>
+				<p>{{cityInfo.title}}</p>
+				<p>{{cityInfo.districtName}}· {{cityInfo.spaceTypeName}}· {{cityInfo.couchTypeName}}</p>
+				<div class="find-stars">
+					<a href="#">{{cityInfo.price | currency:'￥'}}</a>
+					<div class="star">
+						<i></i>
+						<i></i>
+						<i></i>
+						<i></i>
+						<i></i>
+					</div>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+

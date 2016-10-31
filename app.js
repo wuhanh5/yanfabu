@@ -29,6 +29,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'html/home.html',
             css:'css/home.css'
         })
+        .state('city',{
+        	url:'/city/:cityId',
+        	templateUrl:'html/city.html',
+        	controller:'cityCtrl',
+        	css:'css/cityinfo.css'
+        })
         
        .state('find', {
             url: '/find',

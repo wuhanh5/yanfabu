@@ -1,0 +1,19 @@
+{
+	"index.html": {
+		"resources": [
+			"framework/swiper.min.js",
+			"js/services.js",
+			"framework/angular-ui-router.js",
+			"app.js",
+			"img/sprite.png",
+			"css/app.css",
+			"js/filters.js",
+			"framework/angular-1.3.0.14/angular.js",
+			"framework/jquery-1.9.1.js",
+			"js/animations.js",
+			"js/controllers.js",
+			"framework/angular-css.min.js",
+			"css/reset.css"
+		]
+	}
+}
