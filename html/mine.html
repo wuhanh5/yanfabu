@@ -1,4 +1,4 @@
-
+ 	<link rel="stylesheet" type="text/css" href="css/mine.css"/>
  	<div id="mine">
 		<div id="register">
 			<img id="pic" src="img/minePic/orders.png"/>
@@ -12,7 +12,7 @@
 					<img src="img/minePic/icon_right.png">
 				</li>
 			</a>
-			<a href="mine/shareAPP.html">
+			<a ui-sref="share">
 				<li ng-click="isShow='true'">
 					<img src="img/minePic/share.jpg">
 					<p>分享APP</p>
@@ -41,16 +41,4 @@
 				</li>
 			</a>
 		</ul>
-	</div>
-	
-	<div id="share" ng-show="isShow">
-		<p>分享沙发旅行给好友</p>
-		<ul>
-			<a href=""><li><img src="img/minePic/weixin_friend.png"/><span>微信好友</span><img src="img/minePic/icon_right.png"></li></a>
-			<a href=""><li><img src="img/minePic/weixin_friends.png"/><span>朋友圈</span><img src="img/minePic/icon_right.png"></li></a>
-			<a href=""><li><img src="img/minePic/qq_friend.png"/><span>QQ好友</span><img src="img/minePic/icon_right.png"></li></a>
-			<a href=""><li><img src="img/minePic/qq_zone.png"/><span>QQ空间</span><img src="img/minePic/icon_right.png"></li></a>
-			<a href=""><li><img src="img/minePic/icon_weibo.png"/><span>新浪微博</span><img src="img/minePic/icon_right.png"></li></a>
-		</ul>
-		<img id="closeShare" src="img/minePic/icon_close_cross.png">
 	</div>
