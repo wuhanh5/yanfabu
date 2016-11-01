@@ -63,6 +63,21 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             css:'css/mine.css'
             
         })
+         .state('share', {
+            url: '/share',
+            templateUrl: 'html/share.html',
+            css:'share.css'            
+        })
+        .state('luying', {
+            url: '/luying',
+            templateUrl: 'html/luying.html',
+            css:'css/luying.css'            
+        })
+        .state('luyingList', {
+            url: '/luyingList',
+            templateUrl: 'html/luyingList.html',
+            css:'css/luyingList.css'            
+        })
         
 
 });

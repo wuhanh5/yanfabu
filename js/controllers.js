@@ -84,5 +84,21 @@ routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityServi
 	}
 });
 
-
+//露营controller
+routerApp.controller('luyingCtrl',['$scope','luyingService','$timeout',function($scope,luyingService,$timeout){
+	luyingService.get().success(function(res){
+		$scope.arr =res.data.pictureLists;
+	})
+	$timeout(function(){
+		$scope.swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			centeredSlides: true,
+			autoplay: 2500,
+			autoplayDisableOnInteraction: false,
+			loop : true
+		});
+	},100);
+	
+}]);
 

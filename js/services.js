@@ -17,3 +17,11 @@ routerApp.service('moreCityService',['$http',function($http){
 		return $http.get('data/citylist.json');
 	}
 }]);
+
+
+//露营service
+routerApp.service('luyingService',['$http',function($http){
+	this.get = function(){
+		return $http.get('data/luying.json');
+	}
+}]);
