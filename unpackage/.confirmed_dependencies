@@ -13,7 +13,10 @@
 			"js/animations.js",
 			"js/controllers.js",
 			"framework/angular-css.min.js",
-			"css/reset.css"
+			"css/reset.css",
+			"framework/angular-1.3.0.14/angular-animate.min.js",
+			"framework/anim-in-out.js",
+			"css/anim-in-out.css"
 		]
 	}
 }

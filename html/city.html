@@ -15,7 +15,7 @@
 		
 	<ul class="trip-list">
 		<li ng-repeat='cityInfo in cityInfos'>
-			<a ui-sref="detail">
+			<a ng-click="toSplace(cityInfo.spaceId)" ui-sref="detail({spaceId: cityInfo.spaceId})">
 				<div class="list-img">
 					<img class="load-img" ng-src={{cityInfo.mainPIc}}>
 					<img class="load-img ownimg" ng-src={{cityInfo.ownerPic}} />

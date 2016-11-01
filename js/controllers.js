@@ -82,7 +82,22 @@ routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityServi
 	$scope.goBack = function(){
 		window.history.back();
 	}
+	
+	$scope.toSplace=function(spaceId){
+		$state.go('detail',{spaceId:spaceId});
+	}
 });
+
+routerApp.controller('detailCtrl',['$scope','detailService','$state','$stateParams',function($scope,detailService,$state,$stateParams){
+	$scope.spaceId = $stateParams.spaceId;
+	var x2 = $stateParams.spaceId;
+	console.log(x2);
+	detailService.get().success(function(res){
+		$scope.details = res.data.spaceInfo;
+	})
+	
+}])
+
 
 //露营controller
 routerApp.controller('luyingCtrl',['$scope','luyingService','$timeout',function($scope,luyingService,$timeout){

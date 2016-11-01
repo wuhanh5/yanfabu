@@ -35,6 +35,12 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
         	controller:'cityCtrl',
         	css:'css/cityinfo.css'
         })
+        .state('detail',{
+        	url:'/detail/:spaceId',
+        	templateUrl:'html/detail.html',
+        	controller:'detailCtrl',
+        	css:'css/detail.css'
+        })
         
         .state('moreCity',{
         	url:'/moreCity',
