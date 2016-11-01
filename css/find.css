@@ -1,0 +1,20 @@
+.find-header{
+	height: 49px;
+	border-bottom: 1px solid #f1f1f1;
+	color: #666;
+	text-align: center;
+	line-height: 50px;
+}
+
+.find-list{
+	margin-top: 10px;
+}
+.find-list li{
+	margin: 5px 10px;
+}
+.find-list li img{
+	width: 100%;
+}
+.find-list a{
+	display: block;
+}
