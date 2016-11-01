@@ -1,3 +1,14 @@
+routerApp.controller('myAppCtrl',['$rootScope',function($rootscope){
+	$rootscope.isUserAuto = false;
+	$rootscope.goBack = function(){
+		window.history.back();
+	}
+	$rootscope.login=function(){
+		$rootscope.isUserAuto = true;
+	}
+	
+}])
+
 
 routerApp.controller('colorCtrl',function($scope){
 	$scope.isActive = true;

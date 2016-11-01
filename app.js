@@ -7,10 +7,10 @@ var routerApp = angular.module('routerApp', ['ui.router','angularCSS']);
  * @param  {[type]} $stateParams
  * @return {[type]}
  */
-routerApp.run(function($rootScope, $state, $stateParams) {
-    $rootScope.$state = $state;
-    $rootScope.$stateParams = $stateParams;
-});
+//routerApp.run(function($rootScope, $state, $stateParams) {
+//  $rootScope.$state = $state;
+//  $rootScope.$stateParams = $stateParams;
+//});
 
 /**
  * 配置路由。

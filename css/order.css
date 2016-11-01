@@ -1,0 +1,54 @@
+body{
+	background: #f7f5f5;
+}
+.order-h1{
+	width:100%;
+	text-align: center;
+	color:#666666;
+	font-size:14px;
+	font-weight: lighter;
+	padding: 15px 0px;
+	background: #fff;
+}
+#order-ul{
+	width:100%;
+	
+	
+}
+#order-ul li{
+	float: left;
+	width:49.6%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	border:1px solid #f1f1f1;
+	border-right: none;
+	background: #fff;
+}
+#order-ul li a{
+	color:#b4b4b4;
+}
+#order-ul .order-oliOne a{
+	color:#58bdc0;
+	text-decoration: none;
+}
+#order-ul .order-oliOne{
+	border-bottom: 2px solid #58bdc0;
+}
+.order-main{
+	clear: both;
+	width:100%;
+}
+.order-main img{
+	width:110px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+.order-main p{
+	text-align: center;
+	color:#adadad;
+	font-size: 14px;
+	margin-top: 20px;
+}
