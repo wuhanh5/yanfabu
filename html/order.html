@@ -1,27 +1,29 @@
 <link rel="stylesheet" type="text/css" href="css/login.css"/>
-<div class="order-bg" ng-if='!isUserAuto'>
-	<img src="img/orders.png" class="orderL-logo" />
-	<p class="orderL-p">沙发旅行，年轻人的社交民宿预订平台</p>
-	<form>
-		<dl class="orderL-dl">
-			<dt><a   id="order-areaCode"><span id="telnum">+86</span><img src="img/orderL_jian.png"/></a><input type="tel" value="" placeholder="输入手机号" required="required"/> </dt>
-			<dt><a  >获取验证码</a><input type="number" value="" placeholder="输入验证码" required="required"/></dt>
-			<dd>收不到短信验证码，试试<a>语音验证码</a></dd>
-			<dd><a class="order-begin" ng-click='login()'>开始</a></dd>
-		</dl>
-	</form>	
-	
-	<!--跳转按钮X图片-->			
-	<a id="x" class="orderL-x" ng-click='goBack()'><img src="img/orderx.png" /></a>
-</div>
-<div class="order-page" ng-if='isUserAuto'>
-	<h1 class="order-h1">订单</h1>
-	<ul id="order-ul">
-		<li class="order-oliOne"><a href="#">进行中</a></li>
-		<li><a href="#">历史订单</a></li>
-	</ul>
-	<div class="order-main">
-		<img src="img/order-circle.png" />
-		<p>暂无此类订单</p>
+<div style="width: 100%;height: 100%;">
+	<div class="order-bg" ng-if='!isUserAuto'>
+		<img src="img/orders.png" class="orderL-logo" />
+		<p class="orderL-p">沙发旅行，年轻人的社交民宿预订平台</p>
+		<form>
+			<dl class="orderL-dl">
+				<dt><a   id="order-areaCode"><span id="telnum">+86</span><img src="img/orderL_jian.png"/></a><input type="tel" value="" placeholder="输入手机号" required="required"/> </dt>
+				<dt><a  >获取验证码</a><input type="number" value="" placeholder="输入验证码" required="required"/></dt>
+				<dd>收不到短信验证码，试试<a>语音验证码</a></dd>
+				<dd><a class="order-begin" ng-click='login()'>开始</a></dd>
+			</dl>
+		</form>	
+		
+		<!--跳转按钮X图片-->			
+		<a id="x" class="orderL-x" ng-click='goBack()'><img src="img/orderx.png" /></a>
+	</div>
+	<div class="order-page" ng-if='isUserAuto'>
+		<h1 class="order-h1">订单</h1>
+		<ul id="order-ul">
+			<li class="order-oliOne"><a href="#">进行中</a></li>
+			<li><a href="#">历史订单</a></li>
+		</ul>
+		<div class="order-main">
+			<img src="img/order-circle.png" />
+			<p>暂无此类订单</p>
+		</div>
 	</div>
 </div>
