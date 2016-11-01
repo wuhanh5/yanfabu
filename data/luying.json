@@ -1,0 +1,190 @@
+{
+	"data": {
+		"activityDto": {
+			"couponNum": 0,
+			"shareDesc": "       请先办理露营再进入音乐节！...",
+			"sharePic": "http://201073.image.myqcloud.com/201073/0/be5a6bd7-d73f-4006-8708-c258a0fee738/original",
+			"shareTitle": "2016腾龙洞迷笛音乐节",
+			"shareUrl": "http://www.shafalvxing.com/h5/outdoor.html?odActivityId=1"
+		},
+		"activityLogoUrl": "http://201073.image.myqcloud.com/201073/0/be5a6bd7-d73f-4006-8708-c258a0fee738/original",
+		"activityName": "2016腾龙洞迷笛音乐节",
+		"address": "腾龙洞风景区",
+		"cityName": "恩施土家族苗族自治州",
+		"endDate": 1474041600000,
+		"endUserId": 66928,
+		"lat": 30.336955,
+		"lng": 108.9898,
+		"odActivityId": 1,
+		"outdoorsIntroduction": "       请先办理露营再进入音乐节！\r\n　　尽管音乐节时间延后，此前敲定的“中国摇滚先锋”崔健、中国口琴第一人杨乐、2015中国摇滚迷笛奖大赢家声音玩具、中文布鲁斯大师张岭、中国元老级摇滚乐队天堂、中国第一潮流说唱金属乐团CMCB、台湾雷鬼摇滚乐队MATZKA、日本另类摇滚THE ANDS，以及小娟和山谷里的居民、杭天、脑浊、Nova Heart、沼泽、图利古尔、边远、Chinese Football、荷尔蒙小姐等一众艺人及乐队均不会爽约这场中秋摇滚盛会。\r\n　　更有迷笛必看压轴痛仰、《中国好歌曲》第三季年度总冠军山人与进入范晓萱战队的季秋洋、武汉朋克传奇生命之饼、“众神闹”中将摇滚乐手和山水建筑绘画相结合的杜昆、金属新贵大红袍、伦敦自赏新贵YUCK、前身为传奇性美国独立音乐名团Galaxie 500的Damon & Naomi、将以全新恐怖造型出现的多国乐队Scare the Children、担纲崔健电影《蓝色骨头》片尾曲的美国乐手Jess Meider、法国电子流行组合Future Gaze、出身学院派的美日籍爵士二重奏组合Royal & Art、葡萄牙裔加拿大另类摇滚Ménage等中外超级大牌倾力加盟！ \r\n　　自古英雄出少年，天津的九拍王子、杭州的柠檬华尔兹、上海的FUSE、新乡的橙乐团等20余组来自全国各地的优秀少儿乐队将齐聚利川，与成都的猴子军团等榜样乐队一起打造一个属于孩子的摇滚乐园！\r\n\r\n交通信息：\r\n航空：\r\n湖北 恩施许家坪机场，距离利川70公里；从恩施乘坐火车到达利川35分钟；\r\n重庆 万州五桥机场，距离利川110公里，从万州乘坐火车到达利川60分钟。\r\n \r\n火车：\r\n全国各大城市均有动车直达利川站；如果你所在的城市没有直达利川的火车，请搜索恩施、万州、重庆、宜昌、荆州、汉口等周边城市站点，均可转乘到达利川站。\r\n \r\n在音乐节期间景区内还将开通往返“迷笛大巴”，详细请见迷笛微信公众号\r\n\r\n（照片由迷笛授权转载使用）",
+		"pictureLists": ["http://201073.image.myqcloud.com/201073/0/6ff1771d-c35f-4b8b-83a6-57670a785491/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/df2810a7-e979-4d78-b8a6-9502d68da315/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c9835cca-554c-47ed-bf45-12447ca7d3ac/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/503a0338-86d1-4633-9c4c-04b35468b965/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/7bf9efa1-83a7-46c7-be63-a580d820451c/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c5d3f3aa-e073-4d30-9054-2a55262ef921/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ebc2e8cb-baf8-40f2-b269-267904546a8d/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8b84a3e0-4cc5-4e50-8d0d-ab8a87f54a4a/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/209db3e6-9424-49fe-8e6b-42373045d830/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c548f746-1724-44ea-9046-0ef63114e356/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/011a9562-97e1-4348-8a95-6c9c7a273736/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/938d0771-9c9c-40ea-bb66-4a202c919ed0/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0769231c-66ef-418e-97f2-50ef542b2e9f/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ce337293-7ffb-45a4-a0e7-54e2aabaf3c0/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/354e7846-dceb-481d-a53c-aafae63476ca/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8ea3a50f-65ae-4df7-8dfa-4981fde23238/original?srotate=1"],
+		"products": [{
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/d3e63047-3a6d-42e8-93a6-80ec603f0c7b/original?srotate=1",
+			"endDate": 1473912000000,
+			"odProductId": 1,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/d3e63047-3a6d-42e8-93a6-80ec603f0c7b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/81df489a-76b7-45b2-bff3-84d33c5343d7/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/dec4344c-f6c1-4e4f-956a-9cdd33c5b391/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9c8cb9f9-851b-49ba-b66d-b0811ff7142e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/58a85155-5c4c-452f-82f9-4b27d2c8c4e5/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ab3514d3-7122-4023-aa9a-860bcb27d252/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0ad29cf5-9248-40a8-861b-ecfd8bea15e1/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/13b69bee-33db-4440-9aea-e829e4083976/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/069a4276-363d-4720-9b7f-e0c18ec96b26/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/85570435-da7d-4e3d-a9ea-ccdae222d5e2/original?srotate=1"],
+			"price": 180.00,
+			"productName": "9月14日露营双人套餐（双人帐篷＋2个睡袋＋2个防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473814800000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/6e9dabdf-e7b0-4fd4-b816-992df8bce57b/original?srotate=1",
+			"endDate": 1473998400000,
+			"odProductId": 11,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/6e9dabdf-e7b0-4fd4-b816-992df8bce57b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e67086f6-66ed-447f-96bc-6bd2525e0c56/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0bad4744-9006-44e1-8d3c-5747e459ee8e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/49b1f80e-fff0-44f3-bd17-d2473e5bec09/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/895b001d-8cc1-467d-9b26-742615c010e6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ac1c4652-6ed9-48d8-87f7-dee897a825d6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/650347ee-daf9-4ba8-97c6-e140741441d4/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/326e882d-0c08-4843-8a8d-fffc5595f642/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8d1f92b6-4056-4756-ab60-7482fb21a463/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/660aed5d-2bb4-4ff9-aa94-d79a2b1631b3/original?srotate=1"],
+			"price": 180.00,
+			"productName": "9月15日露营双人套餐（双人帐篷＋2个睡袋＋2个防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473901200000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/476c5024-a6b0-4f48-bfbf-6d2a2e43c78d/original?srotate=1",
+			"endDate": 1474084800000,
+			"odProductId": 12,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/476c5024-a6b0-4f48-bfbf-6d2a2e43c78d/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/6159ef4c-2aac-4cae-969a-ed59802b53a9/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/88f9d991-bb94-444e-acac-cf23c63114b6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/28c6f591-850d-493d-8a4b-369764d85a3e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/d5906202-2f21-45fd-8be1-06495c72ee93/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/155ba4d9-9cd8-4b9d-8bef-a44e7e4da9b4/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/1caa9ad5-95e4-49fc-a17d-f87412081f50/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/d60d4cd5-ac5b-4ba3-9d36-b96e42320dc1/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/70fd7bbb-83d9-498c-8aa4-901a41553761/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0e9b5920-7531-429f-ad40-f4b2c52913d8/original?srotate=1"],
+			"price": 180.00,
+			"productName": "9月16日露营双人套餐（双人帐篷＋2个睡袋＋2个防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473987600000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/b5376a8a-45a2-4ade-b01a-a56ecc202c88/original?srotate=1",
+			"endDate": 1474171200000,
+			"odProductId": 13,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/b5376a8a-45a2-4ade-b01a-a56ecc202c88/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9298573d-ea91-4fe5-b5cd-52c8dd0bd6a6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/96069828-20e2-459c-812d-613597930922/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/4f08aa7a-53a4-48c2-9294-7e987a646f21/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0e2981c7-5d07-4933-ad9c-a3025e7ed720/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/1a9c91bc-9c9f-48a4-8d2c-af04329ffc13/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/5271478e-50d9-4f7c-93a7-3449cd8c4153/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/dc3697f8-76d7-4277-bee0-fe081986a168/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/2d513217-ea18-443b-832e-65bd60b2b8c4/original?srotate=1"],
+			"price": 180.00,
+			"productName": "9月17日露营双人套餐（双人帐篷＋2个睡袋＋2个防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1474074000000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/e2fd7b8f-4cfb-4a79-b2ac-08734246e99b/original?srotate=1",
+			"endDate": 1473912000000,
+			"odProductId": 3,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/e2fd7b8f-4cfb-4a79-b2ac-08734246e99b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/6ddb2404-e1b7-4261-93ab-6b8a47d163da/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/cecbdd1f-e6ca-4a89-b29f-749185e46a7f/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ce63eae5-9d88-4ca9-ab42-e2a284b99453/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/acb99396-bbae-4b8f-b5cc-d665375ee913/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/24bd8c15-2477-425a-93a4-ee941d8560a3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e3cf987e-f2ee-47e5-b6cc-2ceb1853ad7b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/76069690-d086-4552-af15-d2b53b5b7fde/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/05750aea-b6d2-40a3-b943-290575f2d85c/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ec02db6c-74a7-423e-b905-4c8b9a816e7b/original?srotate=1"],
+			"price": 130.00,
+			"productName": "9月14日露营单人套餐（帐篷＋睡袋＋防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473814800000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/5a5f77ca-d886-4c23-a05d-c5ff9cbaeee0/original?srotate=1",
+			"endDate": 1473998400000,
+			"odProductId": 8,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/5a5f77ca-d886-4c23-a05d-c5ff9cbaeee0/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e28bf41a-5b76-41da-a2f1-df3e6b5b7bfd/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8a069138-93af-4af8-ac88-7513196fe78b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/1d55dd24-7b74-43b6-95e2-fc29a361771f/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/977cb0f0-51b6-4661-9016-be2ac0e120df/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/d4e73127-0786-4f1c-8f89-50024c5cc2f8/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c827dbc7-72f3-4c22-81d1-dc255a1f7166/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8bd5c8f2-499f-4574-8f84-f2a13b2b7d0e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9336826f-2785-42cc-a315-1f420ed79268/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c2f3fe35-2f59-4e6b-90f2-bc4e09fa632b/original?srotate=1"],
+			"price": 130.00,
+			"productName": "9月15日露营单人套餐（帐篷＋睡袋＋防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473901200000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/0a695f0f-362d-4de0-85b9-5869f945b53c/original?srotate=1",
+			"endDate": 1474084800000,
+			"odProductId": 9,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/0a695f0f-362d-4de0-85b9-5869f945b53c/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/2f3f50aa-27ae-4ccf-a582-e5abfc7fe270/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/5776728d-f19a-4e2b-be79-ea70c4b3ac19/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/cab8d465-39c3-4307-b814-7ce1d94b1793/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/a370dc19-88ce-44f9-a315-6f582352da8e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/394b105a-3906-4b17-8754-046a8be4aec6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/093e816a-14d4-4fd5-bc21-632153df6cb5/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/6a3031da-0288-4372-8a26-71a672f46ad8/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/90fe0fd1-17ad-45be-be2e-26b450e92b79/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/4ad325a1-e852-4375-924b-4c84182c02ec/original?srotate=1"],
+			"price": 130.00,
+			"productName": "9月16日露营单人套餐（帐篷＋睡袋＋防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1473987600000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "24小时热水", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/9f240cf3-b8d2-498f-ab9b-7c255acba500/original?srotate=1",
+			"endDate": 1474171200000,
+			"odProductId": 10,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/9f240cf3-b8d2-498f-ab9b-7c255acba500/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/62d2ea9b-f0a6-4e18-9326-3c22e81fa728/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/397147d0-cfd9-4634-8f61-fbfedc1dd9ce/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/eb0d9d8d-f11c-456c-b5e5-2b1f793e9b89/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/a2034b35-26be-4563-91a1-72a32ff92c27/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/542b68ff-09a4-4a7a-b80b-b240c19f9ca3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/76ef59ae-08e3-483b-b506-a6bb1acf2575/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/35e77c40-6ce7-413c-b6ed-bbaf6dec5db8/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/5ee285fd-6eb1-4757-a108-38fd116a4ad3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/01a7c9d8-f08a-46b2-8d51-2de98fcef873/original?srotate=1"],
+			"price": 130.00,
+			"productName": "9月17日露营单人套餐（帐篷＋睡袋＋防潮垫）",
+			"saleStatus": 0,
+			"startDate": 1474074000000
+		}, {
+			"amenities": ["WIFI", "卫生间"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/fbe93705-d82a-4244-883e-c3ef89e0c98c/original?srotate=1",
+			"endDate": 1474124400000,
+			"odProductId": 7,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/fbe93705-d82a-4244-883e-c3ef89e0c98c/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e08cb311-3393-41f2-ba33-5ae03a847368/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/5b136a7a-a0fa-4ae0-8016-0b517afcc04d/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/0fe34d96-8b52-4839-8dcb-1a76e16cc8d7/original?srotate=1"],
+			"price": 390.00,
+			"productName": "9月15-17日音乐节三日套票",
+			"saleStatus": 0,
+			"startDate": 1473901200000
+		}, {
+			"amenities": ["WIFI", "卫生间"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/bd1a8d57-3219-4880-99d5-01ebbcdfa27a/original?srotate=1",
+			"endDate": 1473951600000,
+			"odProductId": 4,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/bd1a8d57-3219-4880-99d5-01ebbcdfa27a/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/7bc7023f-cbff-4bdf-8fea-18e0d4d57b65/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/b5246536-b534-4d6d-aba8-a8cba9e2e9eb/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/28907ea9-76db-4ac2-8549-7a95c756d753/original?srotate=1"],
+			"price": 150.00,
+			"productName": "9月15日音乐节单日门票",
+			"saleStatus": 0,
+			"startDate": 1473919200000
+		}, {
+			"amenities": ["WIFI", "卫生间"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/3537051c-b8aa-4d4f-8705-d991e71cd294/original?srotate=1",
+			"endDate": 1474038000000,
+			"odProductId": 5,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/3537051c-b8aa-4d4f-8705-d991e71cd294/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/87f687f1-a892-4e60-9256-568fccaea83c/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/d4a6ea81-7648-43b5-bf0b-3945d71fb06b/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e7e8798a-d42d-41be-84ba-a176f20ac109/original?srotate=1"],
+			"price": 150.00,
+			"productName": "9月16日音乐节单日门票",
+			"saleStatus": 0,
+			"startDate": 1473987600000
+		}, {
+			"amenities": ["WIFI", "卫生间"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/aa9e1b33-862c-4f70-bd6e-b842f774a253/original?srotate=1",
+			"endDate": 1474124400000,
+			"odProductId": 6,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/aa9e1b33-862c-4f70-bd6e-b842f774a253/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c8a35392-56e1-4540-858d-fb03122925db/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/33ddaf56-cab5-4e0b-8b96-b699c4b2d922/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/a59c80e5-a53d-4dca-a6c4-34e58f952522/original?srotate=1"],
+			"price": 150.00,
+			"productName": "9月17日音乐节单日门票",
+			"saleStatus": 0,
+			"startDate": 1474074000000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/a80fafa6-8fa1-40d8-9b23-7d0c0e29ad87/original?srotate=1",
+			"endDate": 1473912000000,
+			"odProductId": 2,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/a80fafa6-8fa1-40d8-9b23-7d0c0e29ad87/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c3e35ca4-a02e-4262-a2ce-d039736e5590/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/bc610b57-ac29-4d36-922f-f937c48dcf21/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/ec093e1c-0f1a-4f3a-a7f5-64cdd709cb1e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/586cafdd-3eb3-4f2a-b8ba-fb373ff89910/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/a5f2588a-8b8f-4274-a47c-93c85d9322b3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/c483fead-fb15-446f-b3f0-5055123353df/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9b3d1bd8-a43c-4f13-91ab-035cb941c55a/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9697e1fe-0011-443b-9966-0984f337aac3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/15498664-5304-4af8-b331-27a1c54851a8/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/431f2a37-1629-4e80-a164-34cc25ecc81b/original?srotate=1"],
+			"price": 0.10,
+			"productName": "9月14日露营位预订（装备自带或租赁）",
+			"saleStatus": 0,
+			"startDate": 1473814800000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/c714e58b-abff-4f84-9a1e-5294ff3d157f/original?srotate=1",
+			"endDate": 1473998400000,
+			"odProductId": 16,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/c714e58b-abff-4f84-9a1e-5294ff3d157f/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/9d663681-2e7c-46fe-a9ed-b14eccbc8739/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/41051389-e608-455a-97d1-d3a55156a748/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/bfc99853-f6cc-41e8-8ed8-ecf340ead054/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/6a1e6ea7-95ac-4cef-8528-91a29817ac9a/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e9d1dd59-f99c-447e-ad11-d7bb6ece83de/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/eec6a541-4c4b-4a4f-8a78-94528e957708/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/65a6213d-f467-4538-9d27-98c8433529d9/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/e25cb856-7763-4e2f-b93c-64abfdf03084/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/fdc57cad-5687-4032-b7b1-17024473a9f8/original?srotate=1"],
+			"price": 0.10,
+			"productName": "9月15日露营位预订（装备自带或租赁）",
+			"saleStatus": 0,
+			"startDate": 1473901200000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/f7190318-ea8f-4cb8-9fd2-4d5bacaafea1/original?srotate=1",
+			"endDate": 1474084800000,
+			"odProductId": 14,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/f7190318-ea8f-4cb8-9fd2-4d5bacaafea1/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/78b28398-2858-459a-aac8-6dd7809f3e8e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/54c7b1cf-fe7f-4968-bd7a-a64813a77fc7/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/321cacd9-7b8b-4dc0-9363-60cb1698af18/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/90f065a4-5bc0-453c-97f4-3238cd9ee93e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/6d3a49e6-e513-4083-a0eb-c53bd8c8e815/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/12fbd907-bdea-4cea-837c-40b87ecc7dc6/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/f6184696-fa7f-4b34-a3ae-8fce06cebcf4/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/53e57e93-7bd2-494c-91a5-bceb75d2c666/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/20205e75-b5b9-45f0-8a7d-d811a1811bc7/original?srotate=1"],
+			"price": 0.10,
+			"productName": "9月16日露营位预订（装备自带或租赁）",
+			"saleStatus": 0,
+			"startDate": 1473987600000
+		}, {
+			"amenities": ["WIFI", "卫生间", "淋浴", "充电"],
+			"coverPicUrl": "http://201073.image.myqcloud.com/201073/0/24010c36-063d-4861-a5ef-921a790d8f64/original?srotate=1",
+			"endDate": 1474171200000,
+			"odProductId": 15,
+			"pictureList": ["http://201073.image.myqcloud.com/201073/0/24010c36-063d-4861-a5ef-921a790d8f64/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/1384512d-49af-43fc-9270-eccdc647d48d/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/790521ec-403f-4cd9-9c68-55fdd70b46cb/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/8eb15834-029b-4375-81c5-81453aa42c9e/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/19d1aedc-1859-47b8-980c-9150448c1d76/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/aaef0e36-e14d-4220-99eb-648e44255ee3/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/67547270-1ffb-4d2b-be34-bf838d2baf08/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/f97195d2-9b28-4547-8ca4-051a7ec71a03/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/fad45464-a04b-4797-a34f-9de4cf673482/original?srotate=1", "http://201073.image.myqcloud.com/201073/0/db80fb0b-8af4-42e9-9f76-d84e52047114/original?srotate=1"],
+			"price": 0.10,
+			"productName": "9月17日露营位预订（装备自带或租赁）",
+			"saleStatus": 0,
+			"startDate": 1474074000000
+		}],
+		"purchaseNotes": "购票指南：\r\n预售单日150元／现场单日180元，预售通票400元／现场通票450元，沙发旅行所售门票领取请凭手机号及身份证至现场售票处“沙发旅行领取通道”窗口。\r\n更多攻略信息，敬请留意迷笛官方发布。\r\n\r\n露营价目表：\r\n单人套餐价格：130元/天（1个帐篷 1个睡袋 1个防潮垫）\r\n押金：300元（现场支付）\r\n\r\n双人套餐价格：180元/天（1个双人帐篷 2个睡袋 2个防潮垫）\r\n押金：300元（现场支付）\r\n\r\n露营位实为免费，支付0.1元为订单完成流程需要，请告之客服支付宝，可退款。\r\n\r\n预订&现场流程：\r\n1、【 沙发旅行】App预订露营和音乐节门票\r\n2、音乐节门票预售观众，请至现场售票处提供手机号并出示身份证换取门票\r\n3、露营预订观众，请至露营区入口旁领取帐篷(出示订单截图或手机号码)，支付帐篷押金\r\n4、在登记处出示身份证原件登记个人信息，领取手环（进入露营区需出示手环）。\r\n5、在出入口进行安检并在工作人员指定的区域扎营\r\n6、露营完毕后归还帐篷并领取押金\r\n\r\n露营区设施：冷水淋浴，移动卫生间，存包，充电，小卖部\r\n本次露营产品由知名户外品牌喜马拉雅提供 音乐节前5天可支持退订\r\n\r\n购买门票注意事项：\r\n1.了解：单日票只可观看选定日期当天的演出，三日套票可观看三天音乐节所有的演出；当天只可进入场内一次，出门作废。\r\n2.确认：购买单日门票请选对购票的日期；\r\n3.流程：购买－付款；\r\n4.兑票：建议截图保存购买信息页面。在官方淘宝对票处报沙发旅行，提供手机号并出示身份证换取门票； \r\n5.身高一米四以下的儿童可在家长陪同下免费入场，成人需另购门票。请为孩子戴上耳塞或远避过大的声音以免听力受损；\r\n6.兑票时间：每日11:00～20:30\r\n7.门票一经预售不支持退换。\r\n\r\n迷笛营安全须知：\r\n音乐节单日票或套票经安检进入音乐节现场后，出场即失效（不能往返出入）。\r\n需要露营的乐迷请先至露营区办理入营手续、搭建帐篷后再前往音乐节安检入场。\r\n先行进入音乐节现场的乐迷如露营，须在音乐节当日结束后前往露营区办理手续。\r\n露营乐迷请尊重工作人员的管理，按区扎营、文明处事，不侵扰他人。\r\n请勿携带各种煤油、煤气等户外灶具炉具等进入营区；营区内不得有任何明火。\r\n请勿在营区放风筝、燃放孔明灯、引燃篝火。\r\n请勿携带玻璃瓶装的白酒、啤酒、饮料进入露营区。\r\n请勿攀爬栅栏、集装箱以及工作瞭望台。\r\n请爱护营区内公共设施。\r\n请尊重他人，为迷笛创造快乐、和谐之氛围。",
+		"startDate": 1473868800000,
+		"venueCamp": "湖北利川市"
+	},
+	"rtnStatus": {
+		"code": "200",
+		"message": "SUCCESS"
+	}
+}

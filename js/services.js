@@ -25,3 +25,10 @@ routerApp.service('luyingService',['$http',function($http){
 		return $http.get('data/luying.json');
 	}
 }]);
+//
+////露营商品详情
+//routerApp.service('luyingsService',['$http',function($http){
+//	this.get = function(){
+//		return $http.get('data/luying.json');
+//	}
+//}]);

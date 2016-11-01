@@ -102,3 +102,13 @@ routerApp.controller('luyingCtrl',['$scope','luyingService','$timeout',function(
 	
 }]);
 
+//露营商品详情
+routerApp.controller('luyingsCtrl',['$scope','luyingService','$state',function($scope,luyingService,$state){
+	luyingService.get().success(function(res){
+		$scope.luying =res.data.products;
+	})
+	
+	$scope.toluying = function(luyingId){
+		$state.go('luying',{luyingId:luyingId});
+	}
+}])

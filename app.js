@@ -66,7 +66,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
          .state('share', {
             url: '/share',
             templateUrl: 'html/share.html',
-            css:'share.css'            
         })
         .state('luying', {
             url: '/luying',

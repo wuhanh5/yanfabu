@@ -5,5 +5,17 @@ swiper-container{width: 100%;height: 100%;margin: 0;}
 
 #allp p{text-align: center;margin: 10px auto;}
 #tab{height: 40px;}
-#tab p{float: left;width: 50%;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px solid rgb(162,162,162);}
+#tab p{float: left;width: 50%;height: 40px;line-height: 40px;text-align: center;border-bottom: 1px solid rgb(240,240,240);}
 #tab p:first-child{color: rgb(88,189,192);border-bottom: 1px solid rgb(88,189,192);}
+
+#title{text-align: center;color: rgb(88,189,192);height: 30px;line-height: 30px;margin-top: 10px;border-top: 1px solid rgb(240,240,240);}
+h3{text-align: center;line-height: 50px;font-weight: normal;border-bottom: 1px solid rgb(240,240,240);}
+#white{height: 10px;background: rgb(240,240,240);}
+
+.campList li{width: 100%;height: 90px;position: relative;padding: 10px 0 0 20px;border-bottom: 1px solid rgb(240,240,240);}
+.campList img{width: 30%;height: 80%;margin: 0 10px 0 0;float: left;}
+.campList .content{width: 55%;float: left;}
+.campList .content p:nth-child(1){color: black;font-size: 12px;margin-bottom: 2px;}
+.campList .content p:nth-child(4){width:30px;height:30px;border:1px solid rgb(240,240,240);position: absolute;right: 10px;top: 20px;border:1px solid rgb(240,240,240);text-align: center;line-height: 30px;}
+.campList .content p:nth-child(5){width:32px;position: absolute;right: 11px;top: 55px;}
+.footer-nav{display: none;}
