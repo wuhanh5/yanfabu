@@ -1,7 +1,7 @@
-#top{width: 100%;height: 40px;line-height: 40px;}
-#top img{width: 7%;height: 50%;float: left;margin: 10px 0 0 10px;}
-#top span{display: inline-block;margin-left: 32%;}
+#top{width: 100%;height: 40px;}
+#top img{width: 5%;height: 35%;float: left;margin: 10px 0 0 10px;}
+#top span{display: inline-block;margin-left: 32%;color: black;height: 40px;line-height: 40px;}
 #pic{width: 50%;height: 35%;}
-#price{display: inline-block;margin-left:10px;color: rgb(88,189,192);}
-#address{display: inline-block;float: right;color: rgb(88,189,192);margin-right: 10px;}
+#price{display: inline-block;margin-left:20px;color: rgb(88,189,192);}
+#address{display: inline-block;float: right;color: rgb(88,189,192);margin-right: 20px;}
 .footer-nav{display: none;}
