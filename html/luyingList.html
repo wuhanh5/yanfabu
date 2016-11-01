@@ -19,5 +19,21 @@
 	<p>活动介绍</p><p>购买须知</p>
 </div>
 <p style="margin:10px 0 0 10px;text-indent: 20px;">请先办理露营再进入音乐节！</p>
-<p style="margin:0 0 0 10px;text-indent: 20px;">尽管音乐节时间延后，此前敲定的“中国摇滚先锋”崔健、中国口琴第一人杨乐、2015中国摇滚迷笛奖大赢家声音玩具、中文布鲁斯大师</p>
-
+<p style="margin:0 0 0 10px;text-indent: 20px;display: -webkit-box;overflow: hidden;text-overflow: ellipsis;word-break: break-all;-webkit-line-clamp: 2;-webkit-box-orient: vertical;">尽管音乐节时间延后，此前敲定的“中国摇滚先锋”崔健、中国口琴第一人杨乐、2015中国摇滚迷笛奖大赢家声音玩具、中文布鲁斯大师</p>
+<p id="title">查看活动介绍 ></p>
+<div id="white"></div>
+<h3>商品详情</h3>
+<ul ng-controller="luyingsCtrl" class="campList">
+	<li ng-repeat ="x in luying">
+		<!--<a ng-click="toluying(luying.id)" ui-sref="city({luyingId: luying.id})">-->
+			<img ng-src={{x.coverPicUrl}}>
+			<div class="content">
+				<p>{{x.productName}}</p>
+				<p>{{x.startDate | date:'yyyy/MM/dd'}} - {{x.endDate | date:'yyyy/MM/dd'}}</p>
+				<p>{{x.amenities[0]+" "+x.amenities[1]+" "+x.amenities[2]+" "+x.amenities[3]+" "+x.amenities[4]}}</p>
+				<p>订</p>
+				<p>{{"￥"+x.price}}</p>
+			</div>
+		<!--</a>-->
+	</li>
+</ul>
