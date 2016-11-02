@@ -1,0 +1,101 @@
+html,body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: url(img/minePic/splach_img.png) center center;
+	background-size: 50% 50%;
+	background-repeat: no-repeat;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+#welcome{
+	width:100%;
+	height: 100%;
+}
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	width: 100%;
+	height: 100%;
+}
+
+.img1 {
+	background: url(img/minePic/init_bg_01.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.img2 {
+	background: url(img/minePic/init_bg_02.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.img3 {
+	background: url(img/minePic/init_bg_03.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+.img4 {
+	background: url(img/minePic/init_bg_04.png) no-repeat;
+	background-size: 100% 100%;
+}
+.swiper-slide img:nth-of-type(1){
+	position: absolute;
+	transition: all 1s; 
+	top:-30%;
+	left: 25%;
+	width: 200px;
+	height: 200px;
+	display: block;
+}
+.swiper-slide img:nth-of-type(2){
+	position: absolute;
+	transition: all 1s;
+	bottom: -65%;
+	left:45%;
+	display: block;
+	width: 40px;
+	height: 330px;
+}
+.start{
+	display: none;
+	margin-left: -50px;
+	left: 50%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	width: 100px;
+	position: absolute;
+	bottom:10px;
+	z-index: 999;
+	border: 1px solid #58bdc0;
+}
+.start a{
+	color: #fff;
+	text-decoration: none;
+}

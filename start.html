@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/swiper.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/start.css" />
+		<title>沙发旅行</title>
+	</head>
+
+	<body style="background: url(img/minePic/splach_img.png) center center;background-size: 50% 50%;background-repeat: no-repeat;">
+		<div id="welcome">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide img1" style="background: url(img/minePic/init_bg_01.png);">
+						<img src="img/minePic/init_top_01.png" />
+						<img src="img/minePic/init_center_01.png" />
+					</div>
+					<div class="swiper-slide img2" style="background: url(img/minePic/init_bg_02.png) no-repeat;">
+						<img src="img/minePic/init_top_02.png" />
+						<img src="img/minePic/init_center_02.png" />
+					</div>
+					<div class="swiper-slide img3" style="background: url(img/minePic/init_bg_03.png) no-repeat;">
+						<img src="img/minePic/init_top_03.png" />
+						<img src="img/minePic/init_center_03.png" />
+					</div>
+					<div class="swiper-slide img4" style="background: url(img/minePic/init_bg_04.png) no-repeat;">
+						<img src="img/minePic/init_top_04.png" />
+						<img src="img/minePic/init_center_04.png" />
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+				<div class="start"><a id="in">开始体验</a></div>
+			</div>
+		</div>
+		<script src="framework/swiper.min.js"></script>
+		<script src="framework/jquery-1.9.1.js"></script>
+
+		<script type="text/javascript">
+			var img = $(".swiper-slide");
+			$($(img[0]).children()[0]).css('top', '5%');
+			$($(img[0]).children()[1]).css('bottom', '5%');
+			var width = document.documentElement.offsetWidth;
+			for (var i = 0; i < img.length; i++) {
+				$(img[i]).on('touchend', (function(num) {
+					return function() {
+						$($(img[num + 1]).children()[0]).css('top', '5%');
+						$($(img[num + 1]).children()[1]).css('bottom', '5%');
+						if ($(img[3]).offset().left <= width) {
+							$(".swiper-pagination").css("display", "none");
+							$('.start').css("display", "block");
+						}
+					}
+				})(i));
+			}
+			
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				nextButton: '.swiper-button-next',
+				prevButton: '.swiper-button-prev',
+				paginationClickable: true,
+				spaceBetween: 0,
+				centeredSlides: true,
+				autoplayDisableOnInteraction: false
+			});
+			
+			$("#in").click(function  () {
+				$("#welcome").fadeOut(400);
+				setTimeout(function  () {
+					window.location="index.html"
+				},400);
+			})
+		</script>
+	</body>
+</html>

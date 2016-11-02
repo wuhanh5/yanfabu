@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=4AOAO6FmIwaITUWtY0qkzUCXegRHWNET"></script>
+		<style type="text/css">
+			body,
+			html,
+			#allmap {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				margin: 0;
+				font-family: "微软雅黑";
+			}
+			
+			.my-fangyuan-map-top {
+				float: left;
+				position: fixed;
+				top: 0px;
+				height: 50px;
+				background-color: #fff;
+				width: 100%;
+				z-index: 999;
+			}
+			
+			.my-fangyuan-map-top img {
+				display: inline-block;
+				float: left;
+				height: 15px;
+				vertical-align: bottom;
+				margin: 17.5px 0 0 20px;
+			}
+			
+			.my-fangyuan-map-top span {
+				color: #666;
+				display: inline-block;
+				margin-left: 32%;
+				text-align: center;
+				line-height: 50px;
+			}
+		</style>
+	</head>
+<body>
+	<div class="my-fangyuan-map-top">
+		<a onclick="goBack()"><img src="../img/topbar_back.png" alt="" /></a><span>地址设置</span>
+	</div>
+	<div id="allmap"></div>
+	<script type="text/javascript">
+	var map = new BMap.Map("allmap");
+	var point = new BMap.Point(116.331398,39.897445);
+	map.centerAndZoom(point,12);
+
+	var geolocation = new BMap.Geolocation();
+	geolocation.getCurrentPosition(function(r){
+		if(this.getStatus() == BMAP_STATUS_SUCCESS){
+			var mk = new BMap.Marker(r.point);
+			map.addOverlay(mk);
+			map.panTo(r.point);
+		}
+		else {
+			alert('failed'+this.getStatus());
+		}        
+	},{enableHighAccuracy: true})
+	function goBack () {
+		window.history.back();
+	}
+	</script>
+</body>

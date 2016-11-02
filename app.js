@@ -83,6 +83,14 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'html/luyingList.html',
             css:'css/luyingList.css'            
         })
-        
-
+        .state('set', {
+            url: '/set',
+            templateUrl: 'html/set.html',
+            css:'css/set.css'            
+        })
+		.state('shareHouse', {
+            url: '/shareHouse',
+            templateUrl: 'html/shareHouse.html',
+            css:'css/shareHouse.css'            
+       })
 });
