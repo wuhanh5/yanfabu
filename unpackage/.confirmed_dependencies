@@ -16,7 +16,38 @@
 			"css/reset.css",
 			"framework/angular-1.3.0.14/angular-animate.min.js",
 			"framework/anim-in-out.js",
-			"css/anim-in-out.css"
+			"css/anim-in-out.css",
+			"css/lib.css"
+		]
+	},
+	"start.html": {
+		"resources": [
+			"img/minePic/init_bg_03.png",
+			"img/minePic/init_top_01.png",
+			"img/minePic/init_bg_04.png",
+			"framework/swiper.min.js",
+			"img/minePic/init_center_04.png",
+			"img/minePic/splach_img.png",
+			"img/minePic/init_bg_01.png",
+			"css/start.css",
+			"img/minePic/init_bg_02.png",
+			"img/minePic/init_center_03.png",
+			"img/minePic/init_center_02.png",
+			"img/minePic/init_top_03.png",
+			"css/swiper.min.css",
+			"img/minePic/init_center_01.png",
+			"framework/jquery-1.9.1.js",
+			"img/minePic/init_top_02.png",
+			"img/minePic/init_top_04.png",
+			"index.html"
+		],
+		"refer": [
+			"index.html"
+		]
+	},
+	"html/TLDmap.html": {
+		"resources": [
+			"img/topbar_back.png"
 		]
 	}
 }

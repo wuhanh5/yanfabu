@@ -1,7 +1,7 @@
 		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="css/shareHouse.css"/>
 		<div class="my-fangyuan-top">
-			<a onclick="goBack()"><img src="img/topbar_back.png" alt="" /></a><span>发布房源</span><p>完成</p>
+			<a><img src="img/topbar_back.png" alt="" ng-click="goBack()" /></a><span>发布房源</span><p>完成</p>
 		</div>
 		<div class="my-addroom">
 			<div class="my-add-btn"><input type="file"/><img src="img/minePic/send_space_head.png" alt="" />
@@ -58,9 +58,3 @@
 		</div>
 		<div id="spacewhite"></div>
 		<div class="over">完成</div>
-		
-		<script type="text/javascript">
-			function goBack () {
-				window.history.back();
-			}
-		</script>
