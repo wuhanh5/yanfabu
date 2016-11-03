@@ -7,7 +7,7 @@
 	</div>
 	<div class="home-main" ng-controller="homeMainCtrl">
 		<a ng-repeat ="city in citys" ng-click="toCity(city.id)" ui-sref="city({cityId: city.id})">
-			<img ng-src={{city.mainPic}}>
+			<img lazy-src={{city.mainPic}}>
 			<span>
 				<p>{{city.cityNameCh}}</p>
 				<p>{{city.cityNameEn}}</p>
@@ -15,7 +15,7 @@
 		</a>
 	</div>
 	<a  class="home-bottom search-city" style="margin-bottom:2.134rem;" ui-sref='moreCity'>
-		<img src="img/bottom.png"/>
+		<img lazy-src="img/bottom.png"/>
 		<span >
 			点击查看更多城市
 		</span>

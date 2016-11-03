@@ -1,4 +1,4 @@
-var routerApp = angular.module('routerApp', ['ui.router','angularCSS','ngAnimate','anim-in-out']);
+var routerApp = angular.module('routerApp', ['ui.router','angularCSS','ngAnimate','anim-in-out','me-lazyload']);
 /**
  * 由于整个应用都会和路由打交道，所以这里把$state和$stateParams这两个对象放到$rootScope上，方便其它地方引用和注入。
  * 这里的run方法只会在angular启动的时候运行一次。
@@ -63,6 +63,18 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'html/order.html',
             css:'css/order.css'
         })
+        .state('order.process',{
+            url:'/process',
+            template: '<img src="img/order-circle.png" /><p>暂无此类订单</p>',
+            css:'css/order.css'
+        })
+        .state('order.history',{
+            url:'/history',
+            template: '<img src="img/order-circle.png" /><p>暂无此类订单</p>',
+            css:'css/order.css'
+        })
+
+
        .state('mine', {
             url: '/mine',
             templateUrl: 'html/mine.html',

@@ -18,10 +18,10 @@
 	<div class="order-page" ng-if='isUserAuto'>
 		<h1 class="order-h1">订单</h1>
 		<ul id="order-ul">
-			<li class="order-oliOne"><a href="#">进行中</a></li>
-			<li><a href="#">历史订单</a></li>
+			<li class="order-oliOne"><a ui-sref='.process'>进行中</a></li>
+			<li><a ui-sref='.history'>历史订单</a></li>
 		</ul>
-		<div class="order-main">
+		<div class="order-main" ui-view>
 			<img src="img/order-circle.png" />
 			<p>暂无此类订单</p>
 		</div>

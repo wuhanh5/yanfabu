@@ -14,11 +14,11 @@
 	</div>
 		
 	<ul class="trip-list">
-		<li ng-repeat='cityInfo in cityInfos'>
+		<li ng-repeat='cityInfo in cityInfos' class="cityInfo">
 			<a ng-click="toSplace(cityInfo.spaceId)" ui-sref="detail({spaceId: cityInfo.spaceId})">
 				<div class="list-img">
-					<img class="load-img" ng-src={{cityInfo.mainPIc}}>
-					<img class="load-img ownimg" ng-src={{cityInfo.ownerPic}} />
+					<img class="load-img" lazy-src={{cityInfo.mainPIc}}>
+					<img class="load-img ownimg" lazy-src={{cityInfo.ownerPic}} />
 				</div>
 				<p>{{cityInfo.ownerName}}</p>
 				<p class="own-info">{{cityInfo.age}}岁 · {{sexObj[cityInfo.sex]}} | <img class="icon-right" src="img/icon_user_auth_blue.png"/>&nbsp;<img src="img/icon_reply_flag.png"/>{{cityInfo.replyRate}}%</p>

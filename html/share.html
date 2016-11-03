@@ -8,11 +8,5 @@
 			<a href=""><li><img src="img/minePic/qq_zone.png"/><span>QQ空间</span><img src="img/minePic/icon_right.png"></li></a>
 			<a href=""><li><img src="img/minePic/icon_weibo.png"/><span>新浪微博</span><img src="img/minePic/icon_right.png"></li></a>
 		</ul>
-		<a><img id="closeShare" src="img/minePic/icon_close_cross.png"></a>
+		<a><img id="closeShare" ng-click='goBack()' src="img/minePic/icon_close_cross.png"></a>
 	</div>
-	<script type="text/javascript">
-		var close = document.getElementById("closeShare");
-		close.onclick = function(){
-			window.history.back();
-		}
-	</script>
