@@ -43,11 +43,5 @@
 				</li>
 			</a>
 		</ul>
-		<div id="closeSet"><img src="img/icon_close.png"></div>
+		<div id="closeSet" ng-click="goBack()"><img src="img/icon_close.png"></div>
 	</div>
-	<script type="text/javascript">
-		var close = document.getElementById("closeSet");
-		close.onclick = function(){
-			window.history.back();
-		}
-	</script>
