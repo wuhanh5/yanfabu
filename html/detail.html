@@ -1,3 +1,82 @@
-<div controller='detailCtrl'>
-	<img class="load-img" ng-src={{details.mainPIc}}>
+<link rel="stylesheet" type="text/css" href="./css/swiper.min.css">
+<!--<script type="text/javascript">
+window.onload=function(){
+	var map = new AMap.Map('mapCont', {
+	    resizeEnable: true,
+	    zoom:10,
+	    center: [116.34654522, 40.06398271]
+	});
+	console.log(map);
+	console.log('scsdzxcsdv');
+    var marker = new AMap.Marker({
+        // position: map.getCenter(),
+        position: [116.34654522, 40.06398271],
+        draggable: true,
+        cursor: 'move',
+        raiseOnDrag: true
+    });
+    marker.setMap(map);
+    // marker.setAnimation('AMAP_ANIMATION_BOUNCE');
+    marker.setTitle('北京五十三青年旅社');
+    marker.setLabel({//label默认蓝框白底左上角显示，样式className为：amap-marker-label
+        offset: new AMap.Pixel(20, 20),//修改label相对于maker的位置
+        content: "北京五十三青年旅社"
+    });
+    marker.on('click', function() {
+        
+    });
+}	
+</script>-->
+
+<div controller='detailCtrl' id="detail-model">
+	<div class="detail-title">
+		<img src="img/icon-arrow.png" class="detail-back" ng-click='goBack()'/>
+		<h3>房源详情</h3>
+		<img src="img/minePic/icon_center_collect.png" class="detail-collect"/>
+		<img src="img/icon_spacedetail_share_blue.png" class="detail-share"/>
+	</div>
+	<div class="swiper-container" style="width: 16rem;">
+	    <div class="swiper-wrapper">
+	        <a ng-repeat="x in details.pictureList" class="swiper-slide"><img ng-src={{x}}></a>
+	    </div>
+	    <div class="swiper-pagination" id="detailpage" ></div>
+	    <div class="detail-price">
+	    	{{details.price | currency:'￥'}}
+	    </div>
+	</div>
+	<div class="detail-info tc mt20">
+		<p class="f14 mb5">{{details.title}}</p>
+		<p class="f13">{{details.spaceTypeName}} ·  {{details.couchTypeName}} ·  {{details.sexLimitName}}</p>
+		<div class="star mt5 mb10">
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+			<i></i>
+		</div>
+		<div class="detail-ownpic tc mb15">
+			<img class="br w80" ng-src={{details.spaceOwner.ownerPic}}>
+		</div>
+		<p class="f13">{{details.spaceOwner.ownerName}}</p>
+		<p class="own-info">{{details.spaceOwner.age}}岁 · {{sexObj[details.spaceOwner.sex]}} | <img class="icon-right" src="img/icon_user_auth_blue.png"/>&nbsp;<img src="img/icon_reply_flag.png"/>{{details.replyRate}}%</p>
+		<button>联系房主</button>		
+	</div>
+	<div class="detail-info2 tc pl5 pr5 bbc">
+		<h3 class="mt15 mb15 f14">房源详情</h3>
+		<p class="mb20">有电梯可停车,黄浦区近外滩。 <br/>五星级标准:床单被套一客一换,提供洗漱一次性用品，提供免费矿泉水两瓶;</p>
+		<button class="more">查看更多</button>
+	</div>
+	<div class="detail-info3 tc pl5 pr5 pt15 mb20 bbc">
+		<h3 class="mt15 mb15 f14">便利设施</h3>
+		<button class="more">查看更多</button>
+	</div>
+	<div class="map" id="mapCont" style="height: 120px;background: #fff;width: 90%;margin: 0 auto 60px;">
+		<div class="map-info">
+			<span>{{details.address}}</span><a>查看地图</a>
+		</div>
+	</div>
+	
+	<div class="yuding">
+		申请预定
+	</div>
 </div>

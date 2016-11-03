@@ -88,14 +88,67 @@ routerApp.controller('cityCtrl',function ($scope, $state, $stateParams,cityServi
 	}
 });
 
-routerApp.controller('detailCtrl',['$scope','detailService','$state','$stateParams',function($scope,detailService,$state,$stateParams){
+routerApp.controller('detailCtrl',['$scope','detailService','$state','$stateParams','$timeout',function($scope,detailService,$state,$stateParams,$timeout){
 	$scope.spaceId = $stateParams.spaceId;
 	var x2 = $stateParams.spaceId;
 	console.log(x2);
 	detailService.get().success(function(res){
 		$scope.details = res.data.spaceInfo;
+		$scope.lng = res.data.spaceInfo.lng;
+		$scope.lat = res.data.spaceInfo.lat;
+		console.log($scope.lng)
+		
+	$scope.map = new AMap.Map('mapCont', {
+	    resizeEnable: true,
+	    zoom:10,
+	    center: [$scope.lng, $scope.lat]
+	});
+	console.log($scope.map);
+	console.log('scsdzxcsdv');
+    var marker = new AMap.Marker({
+        // position: map.getCenter(),
+        position: [$scope.lng, $scope.lat],
+        draggable: true,
+        cursor: 'move',
+        raiseOnDrag: true
+    });
+    marker.setMap($scope.map);
 	})
+
 	
+	$timeout(function(){
+		$scope.swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationType : 'fraction',
+			autoplay: 2500,
+			autoplayDisableOnInteraction: false,
+			loop : true
+		});
+	},100);
+	
+	$scope.sexObj= {
+		 1:"男",
+		 2:"女"
+		}
+	
+	//地图
+	var lat=$scope.lat;
+	var lng=$scope.lng;
+//	$scope.map = new AMap.Map('mapCont', {
+//	    resizeEnable: true,
+//	    zoom:10,
+//	    center: [116.34654522, 40.06398271]
+//	});
+//	console.log($scope.map);
+//	console.log('scsdzxcsdv');
+//  var marker = new AMap.Marker({
+//      // position: map.getCenter(),
+//      position: [116.34654522, 40.06398271],
+//      draggable: true,
+//      cursor: 'move',
+//      raiseOnDrag: true
+//  });
+//  marker.setMap($scope.map);
 }])
 
 
@@ -127,3 +180,23 @@ routerApp.controller('luyingsCtrl',['$scope','luyingService','$state',function($
 		$state.go('luying',{luyingId:luyingId});
 	}
 }])
+
+
+//地图展示
+//routerApp.controller('mapCtrl',['$scope','$timeout',function($scope,$timeout){
+//	$scope.map = new AMap.Map('mapCont', {
+//	    resizeEnable: true,
+//	    zoom:15,
+//	    center: [116.34654522, 40.06398271]
+//	});
+//	console.log($scope.map);
+//	console.log('scsdzxcsdv');
+//  var marker = new AMap.Marker({
+//      // position: map.getCenter(),
+//      position: [116.34654522, 40.06398271],
+//      draggable: true,
+//      cursor: 'move',
+//      raiseOnDrag: true
+//  });
+//  marker.setMap($scope.map);
+//}])
