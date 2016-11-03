@@ -41,6 +41,5 @@
       "framework/angular-css.min.js",
       "css/lib.css",
       "css/reset.css"
-    ]
   }
 }
