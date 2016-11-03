@@ -44,7 +44,7 @@
 	</head>
 <body>
 	<div class="my-fangyuan-map-top">
-		<a ng-click="goBack()"><img src="../img/topbar_back.png" alt="" /></a><span>地址设置</span>
+		<a onclick="goBack()"><img src="../img/topbar_back.png" alt="" /></a><span>地址设置</span>
 	</div>
 	<div id="allmap"></div>
 	<script type="text/javascript">
@@ -63,5 +63,8 @@
 			alert('failed'+this.getStatus());
 		}        
 	},{enableHighAccuracy: true})
+	function goBack () {
+		window.history.back();
+	}
 	</script>
 </body>
