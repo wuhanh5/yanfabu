@@ -182,21 +182,30 @@ routerApp.controller('luyingsCtrl',['$scope','luyingService','$state',function($
 }])
 
 
-//地图展示
-//routerApp.controller('mapCtrl',['$scope','$timeout',function($scope,$timeout){
-//	$scope.map = new AMap.Map('mapCont', {
-//	    resizeEnable: true,
-//	    zoom:15,
-//	    center: [116.34654522, 40.06398271]
-//	});
-//	console.log($scope.map);
-//	console.log('scsdzxcsdv');
-//  var marker = new AMap.Marker({
-//      // position: map.getCenter(),
-//      position: [116.34654522, 40.06398271],
-//      draggable: true,
-//      cursor: 'move',
-//      raiseOnDrag: true
-//  });
-//  marker.setMap($scope.map);
-//}])
+//表单验证
+routerApp.controller('signUpCtrl',function($scope){
+	$scope.userdata={};
+	$scope.submitForm = function(){
+		console.log($scope.userdata);
+	}
+})
+
+//密码验证的指令
+.directive('compare',function(){
+	var obj={};
+	obj.strict="AE";
+	obj.scope={
+		orgText:'=compare'
+	}
+	obj.require = 'ngModel';
+	obj.link = function(sco,ele,att,con){
+		con.$validators.compare = function(val){
+			return val == sco.orgText;
+		}
+		
+		sco.$watch('orgText',function(){
+			con.$validate();
+		})
+	}
+	return obj;
+})

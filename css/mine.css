@@ -7,3 +7,6 @@
 #mine ul li img:first-child{width: 1.03rem;height: 1.03rem;vertical-align: middle;}
 #mine ul li img:last-child{width: 0.35rem;height: 0.65rem;margin-left: 0.59rem;vertical-align: middle;}
 #mine ul li p{display: inline-block;margin-left: 8.88rem;}
+
+.footer-nav .mine .index-nav-span5{background-position:-100px -1px;}
+.footer-nav .mine p{color: #58bdc0;}
